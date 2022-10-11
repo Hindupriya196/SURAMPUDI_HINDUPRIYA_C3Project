@@ -65,6 +65,7 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+   @Test
     public void add_items_should_return_correct_order_value(){
 
         List<String> itemNames = new ArrayList<String>();
